@@ -24,10 +24,9 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    m.title = "Movie_0"
+    m.title = "Home Alone"
     m.release_date = 1990
   end
-  m.save
 end
 
 def can_get_the_first_item_in_the_database
